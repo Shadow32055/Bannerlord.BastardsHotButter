@@ -1,6 +1,6 @@
 <Module>
-	<Name value="BetterBandages"/>
-	<Id value="BetterBandages"/>
+	<Name value="BastardsHotButter"/>
+	<Id value="BastardsHotButter"/>
 	<Version value="d0.0.0"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
@@ -14,12 +14,14 @@
 		<DependedModule Id="StoryMode" DependentVersion="v1.0.0"/>
 		<DependedModule Id="CustomBattle" DependentVersion="v1.0.0"/>
 		<DependedModule Id="BetterCore" DependentVersion="v1.0.0"/>
+		<DependedModule Id="Bastards" DependentVersion="v1.0.0"/>
+		<DependedModule Id="HotButter" DependentVersion="v2.0.5"/>
 	</DependedModules>
 	<SubModules>
 		<SubModule>
-			<Name value="BetterBandages"/>
-			<DLLName value="BetterBandages.dll"/>
-			<SubModuleClassType value="BetterBandages.BetterBandages"/>
+			<Name value="BastardsHotButter"/>
+			<DLLName value="BastardsHotButter.dll"/>
+			<SubModuleClassType value="BastardsHotButter.BastardsHotButter"/>
 			<Tags>
 				<Tag key="DedicatedServerType" value="none"/>
 				<Tag key="IsNoRenderModeElement" value="false"/>

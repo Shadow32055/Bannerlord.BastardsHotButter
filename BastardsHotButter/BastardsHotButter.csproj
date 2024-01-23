@@ -55,8 +55,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Bastards">
+      <HintPath>..\..\Bannerlord.Bastards\Bastards\bin\x64\Debug\net472\Bastards.dll</HintPath>
+    </Reference>
     <Reference Include="BetterCore">
       <HintPath>..\..\Bannerlord.BetterCore\BetterCore\bin\x64\Debug\net472\BetterCore.dll</HintPath>
+    </Reference>
+    <Reference Include="HotButter">
+      <HintPath>F:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\HotButter\bin\Win64_Shipping_Client\HotButter.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -64,6 +70,10 @@
     <None Update="_Module\SubModule.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="_Module\ModuleData\Languages\" />
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
