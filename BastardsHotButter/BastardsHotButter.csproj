@@ -62,7 +62,7 @@
       <HintPath>..\..\Bannerlord.BetterCore\BetterCore\bin\x64\Debug\net472\BetterCore.dll</HintPath>
     </Reference>
     <Reference Include="HotButter">
-      <HintPath>F:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\HotButter\bin\Win64_Shipping_Client\HotButter.dll</HintPath>
+      <HintPath>..\HotButter.dll</HintPath>
     </Reference>
   </ItemGroup>
 
